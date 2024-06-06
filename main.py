@@ -1,5 +1,8 @@
+from StronaLogowania import *
+
+
 def main():
-    pass
+    nowa_strona_logowania = StronaLogowania()
 
 
 if __name__ == '__main__':
