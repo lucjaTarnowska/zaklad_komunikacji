@@ -11,7 +11,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 # Ustawienie agenta w nagłówku. Wymaga tego dana biblioteka.
-geolocator = Nominatim(user_agent="Mozilla/5.0", ssl_context=ctx, adapter_factory=geopy.adapters.URLLibAdapter) 
+geolocator = Nominatim(user_agent="Chrome/104.0.5112.79", ssl_context=ctx, adapter_factory=geopy.adapters.URLLibAdapter) 
 
 
 def miejsce_na_wspolrzedne(miejsce):
